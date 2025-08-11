@@ -6,9 +6,9 @@ class Database {
     private $host = 'localhost'; // Generalmente es 'localhost', tu proveedor de hosting lo confirma.
     
     // 👇 USA LOS DATOS QUE CREASTE EN CPANEL 👇
-    private $db_name = 'toppvsqo_essencemanager'; // El nombre completo de la BD de cPanel
-    private $username = 'toppvsqo_admintpccs';       // El nombre completo del usuario de la BD de cPanel
-    private $password = 'g&cY?Q7-6pKU';     // La contraseña que asignaste a ese usuario
+    private $db_name = ''; // El nombre completo de la BD de cPanel
+    private $username = '';       // El nombre completo del usuario de la BD de cPanel
+    private $password = '';     // La contraseña que asignaste a ese usuario
     
     private $conn;
 
@@ -28,4 +28,5 @@ class Database {
         return $this->conn;
     }
 }
+
 ?>
