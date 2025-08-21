@@ -1,0 +1,5 @@
+[15-Aug-2025 23:04:48 UTC] PHP Warning:  Undefined variable $db in /home/toppvsqo/public_html/EssenceManager/public/api/check_payment_status.php on line 25
+[15-Aug-2025 23:04:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getConnection() on null in /home/toppvsqo/public_html/EssenceManager/public/api/check_payment_status.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/toppvsqo/public_html/EssenceManager/public/api/check_payment_status.php on line 25
